@@ -1,0 +1,33 @@
+.title{
+    font-family: 'cursive', 'sans-serif' ;
+    font-size: 200px;
+    text-align: center;
+    color: #49108B;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: #49108B;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#random{
+    background-color: white;
+}
+
+button{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    font-display: block;
+}

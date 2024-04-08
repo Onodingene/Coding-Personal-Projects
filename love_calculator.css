@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffb3c6;
+    font-family: poppins;
+}
+
+.container{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height:    100vh;
+    width: 80vh;
+    box-shadow: inset -8px -8px 12px rgb(185, 103, 117),
+                inset 8px 8px 12px rgb(201, 95, 114);
+                border-radius: 70px;
+    padding: 20px;
+}
+.content{
+    top:30%;
+    left:20%;
+    position: absolute;
+    transform: translation(-50%, -50%);
+}
+
+.content h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+
+.Input{
+    display: flex;
+}
+
+.Content .Input{
+    width: 200px;
+    height:30px;
+    text-align: center;
+    top: 80%;
+    margin:5px;
+    outline:none;
+    border:2px solid red;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: wavy;
+    background-color: red;
+    padding: 10px;
+}

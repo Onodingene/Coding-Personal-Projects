@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="color_flipper.css">
+    <title>COLOUR FLIPPER</title>
+    <style>
+        .title {
+            font-family: 'cursive', 'sans-serif';
+            font-size: 36px; /* Changed font size to a reasonable value */
+            text-align: center;
+            color: blueviolet;
+        }
+
+        /* Added missing closing curly brace */
+        #green {
+            background-color: green;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #orange {
+            background-color: orange;
+        }
+
+        #pink {
+            background-color: pink;
+        }
+
+        #random {
+            background-color: white;
+        }
+
+        button {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block; /* Corrected property name to 'display' */
+            margin: 10px auto; /* Added margin for better alignment */
+        }
+    </style>
+</head>
+<body>
+<h3 class="title">COLOR FLIPPER</h3> <!-- Added class attribute and corrected typo -->
+<button id="green" onclick="setColor('green')">GREEN</button>
+<button id="pink" onclick="setColor('pink')">PINK</button>
+<button id="blue" onclick="setColor('blue')">BLUE</button>
+<button id="orange" onclick="setColor('orange')">ORANGE</button>
+<button onclick="randomColor()">RANDOM</button>
+<script src="color_flipper.js"></script>
+</body>
+</html>
