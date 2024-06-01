@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stop.css">
+    <title>STOP WATCH</title>
+</head>
+<body>
+    <div class="stopwatch project">
+        <h3 id="name">STOP WATCH </h3>
+        <h1 id="time">00:00</h1>
+
+        <button class="start-btn" onclick="startclock()">START <audio id="hoverSound" src="sound.mp3" preload="auto"></audio></button>
+        <button class="stop-btn" onclick="stopclock()">STOP</button>
+        <button class="restart-btn" onclick="restartclock()">RESTART</button>
+        <script src="stopwatch.js"></script>
+    </div>
+</body>
+</html>
